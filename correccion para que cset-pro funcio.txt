@@ -1,0 +1,16 @@
+correccion para que cset-pro funcione 
+1) en el archivo php.ini avilitiar el  la extencion mysqli quitando las ; ("recordar que esta clase esta obsoleta toca migrarla al PDO de mysql)
+2) configurar la cuenta de la database en mi caso es user:root password:101299 
+3)crear database e insertar el script de la database
+4) volar la validacion de md5 en los controladores cambiarpass.php  procesaUsuario.php  restablecerPass.php uploadexcelusuario.php validarinicioSesion.php
+5) cambiar en la database la contraseña del admin para poder ingresar en mi caso puse  user:1000 password:ejaniot123   (el usuario 1000 es el admin )
+6)poner en alrchivo varcon.php que esta en modelo agregar la contraseña de mysql al localhost y al else 
+7) CREATE USER 'root'@'%' IDENTIFIED BY '101299';
+8) GRANT SELECT (munId) ON csetpro.centroformacion TO 'root'@'%';
+9) GRANT SELECT (munId) ON csetpro.municipio TO 'root'@'%';
+10)GRANT SELECT ON csetpro.centroformacion1 TO 'root'@'%';
+11)GRANT ALL PRIVILEGES ON csetpro.* TO 'root'@'%';    --------------------------- comando magico 
+
+
+
+

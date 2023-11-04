@@ -1,0 +1,622 @@
+/* ESTILO GENERALIZADO PARA ETIQUETAS *************************/
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+body {
+	background-color: #727272;
+	}
+
+.opciones > label {
+
+	margin:0px;
+	padding:4px 20px 4px 10px;
+	border-radius:10px;
+	}
+	
+.opciones > label:hover {
+	background-color: #D3F2FF;
+	cursor:pointer;
+	}
+		
+li {list-style:none;}
+ul{ margin: 0px; padding: 0px;}	
+h1, h2, h3{margin-top: 0.2em;}
+a:link{text-decoration:none;}
+
+/* REESTILIZADO A CLASES DE BOOTSTRAP*************************/
+
+.container {
+	min-width:460px;
+	}
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.btn-default {
+    text-shadow: 0px 1px 0px #FFF;
+    background-image: linear-gradient(to bottom, #FFF 0px, #E0E0E0 100%);
+    background-repeat: repeat-x;
+    border-color: #CCC;
+}
+
+select.form-control {
+	height: 44px;
+	font-size: 18px;
+}
+
+.dropdown-menu li a {
+	font-size:1.5em;
+	}
+	
+.mb { /* para bajar todo le margen inferior del elemento*/
+	margin-bottom: 0px;
+	}
+
+/* ESTILOS NUEVOS ************************* HEADER ***********************/
+
+header {
+	background-color: rgba(255,255,255,1.00);
+}
+#index1 img {
+	width: 100%;
+	height: auto;
+	width: auto;
+	height: 100%;	
+}
+
+#index2 img {
+	width: auto;
+	height: 100%;
+}
+.index {
+	overflow: auto;
+	height: 80px;
+}
+
+/* principal de inicio de sesion ***************************/
+
+section {
+ 	padding: 1.2em 0em; */
+	}
+
+#section1 .container {
+	padding: 15px;
+}
+.iniciarSesion{
+	background-color: #fff;
+	min-height: 350px;
+	margin:1.5em;
+	border-radius:10px;
+	border:3px #B5B5B5 solid;
+	padding: 3em;
+	}
+.botonStandar {
+	background-color:rgba(0,155,255,1.00);
+	border:none;
+	font-size:1.2em;
+	padding: 0.3em;
+	overflow: auto;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+	border-radius:5px;
+	padding:3px;
+	background-image: linear-gradient(to bottom, #008CF3 0px, #004CA1 100%);
+/* 	float:right; */
+	}
+	
+.botonStandar:hover {
+		background-image: linear-gradient(to bottom, #004CA1 0px, #004CA1 100%);
+	}	
+.botonStandar:active{
+		background-image: linear-gradient(to bottom, #002153 0px, #004CA1 100%);
+	}		
+
+.botonStandar2 {
+	background-color:#AA0A0A;
+	border:none;
+	font-size:1.2em;
+	padding: 0.3em;
+	overflow: auto;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+	border-radius:5px;
+	padding:3px;
+	background-image: linear-gradient(to bottom, #F84949 0px, #AA0A0A 100%);
+/* 	float:right; */
+	}
+	
+.botonStandar2:hover {
+		background-image: linear-gradient(to bottom, #AA0A0A 0px, #AA0A0A 100%);
+	}	
+.botonStandar2:active{
+		background-image: linear-gradient(to bottom, #6B0303 0px, #AA0A0A 100%);
+	}		
+
+.botonStandar3 {
+	background-color:#1A8439;
+	border:none;
+	font-size:1.2em;
+	padding: 0.3em;
+	overflow: auto;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+	border-radius:5px;
+	padding:3px;
+	background-image: linear-gradient(to bottom, #00D437 0px, #1A8439 100%);
+/* 	float:right; */
+	}
+	
+.botonStandar3:hover {
+		background-image: linear-gradient(to bottom, #1A8439 0px, #1A8439 100%);
+	}	
+.botonStandar3:active{
+		background-image: linear-gradient(to bottom, #144E23 0px, #1A8439 100%);
+	}
+
+
+header .container {
+	padding: 10px;
+
+}
+
+.sesion { /* bloque principal de la sesion de usuario */
+	width: 450px;
+	float: right;
+	padding: 4px;
+	color: rgba(62,62,62,1.00);
+	cursor:pointer;
+
+}
+.sesion:hover {
+	color: rgba(132,132,132,1.00);
+	
+	}
+
+.sesion:hover #foto #fotob {
+	background-color: rgba(255,255,255,0.63);
+	}
+
+.usuario { /* texto con el nombre y el perfil*/
+	width: 360px;
+	float: left;
+	padding: 5px;
+	text-align: right;
+	font-size: large;
+}
+
+#foto {
+	height: 70px;
+	width: 70px;
+	background-color: #fff;
+	border-radius: 50%;
+	float: right;
+	overflow: hidden;
+
+}
+#foto img {
+	max-width: 100%;
+	height: auto;
+	position:relative;
+}
+
+#fotob{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	float: right;
+	position: absolute;
+	top:4px;
+	}
+/* ESTILOS NUEVOS ************************* NAV ***********************/		
+nav {
+	
+	background-color: #035BDE;
+	background-image: radial-gradient(#10BAE1, #03667D);
+	background-size: 100% 100px;	
+	background-image: radial-gradient(#3397F9, #035BDE);
+/* 	font-weight: bold; */
+/* 	font-size:1.2em; */
+}
+
+nav .lin{
+	color: rgba(228,228,228,1.00);
+	font-size:1.1em;
+	padding: 1em 2em 0.5em;
+	float:left;
+	border-bottom-color:rgba(0,219,255,0.00);
+	border-bottom-style: solid;
+	border-bottom-width: 0.3em;	
+	
+	}
+
+nav .lin:hover {
+	background-color: rgba(58,160,255,1.00);
+	color: rgba(255,255,255,1.00);
+	cursor: pointer;
+	border-bottom-color:rgba(0,219,255,1.00);
+	}
+
+nav .li-off{
+	background-color:rgba(0,87,169,1.00);
+	color: rgba(228,228,228,1.00);
+	cursor: default;
+	border-bottom-color:rgba(0,142,166,1.00);	
+	}
+nav .li-off:hover {
+	background-color:rgba(0,87,169,1.00);
+	color: rgba(228,228,228,1.00);
+	cursor:pointer;
+	border-bottom-color:rgba(0,142,166,1.00);	
+	}
+	
+	
+/* ESTILOS NUEVOS ************************* ASIDE ***********************/
+
+.lateral{
+/* 	border:solid #767676 0.2em; */
+	background-color: #4B4B4B;
+	color:#E1E1E1;
+	padding:1em;
+	margin-left:-1em;
+	border-radius: 0.5em ;
+	}
+
+.separador {
+	border-top: 2px solid #242424;
+	border-bottom: 1px solid #717171;
+    margin: 10px 0px;
+}
+
+.lateral li{
+	word-wrap: break-word;
+	font-size:1.3em;
+	padding: 0.6em;
+	list-style-position: inside;	
+	color: #C9C9C9;
+	list-style-type: circle;
+	}
+	
+.lateral li:hover{
+	color: #FFFFFF;
+	text-shadow: 0px 0px 12px  rgba(20,154,252,1.00);
+	list-style-type: disc;
+	}
+	
+li.lateral-off{
+	border-radius:0.2em;
+	background-color: #aaa;	
+	color: #565656;
+	list-style-type: disc;
+	
+	}
+	
+	
+		
+/* ESTILOS NUEVOS ************************* SECTION ***********************/
+	
+#section2 .container {
+	background-color: rgba(255,255,255,1.00);
+	padding: 15px;
+	
+}
+
+.prueba{
+	background-color: #F2F2F2;
+	border: 1px solid #E0DEDE;
+	border-radius: 8px;
+	word-wrap: break-word;
+	margin: 1em 0em;
+	overflow: hidden;
+	
+	}
+.prueba:hover{
+	background-color: #FCFCFC;
+		border: 1px solid #0F6EFB;
+	}
+	
+	.prueba .top {
+		padding: 1em 0em 0em 1em;
+		}
+		
+	.prueba .bot {
+		vertical-align:middle;
+	 background-color:#0F6EFB;
+color: #fff;
+	}
+	
+.prueba button{
+	background-color:rgba(0,155,255,1.00);
+	border:none;
+	font-size:1.2em;
+	padding: 0.3em;
+	
+	overflow: auto;
+	font-weight:bold;
+	padding-bottom:2em;
+	margin-bottom:-2em;
+	text-align:center;
+	color:#FFFFFF;
+	}
+		
+.prueba button:hover {
+	background-color:rgba(62,179,255,1.00);
+}
+
+.menu-derecha {
+	  position:absolute;
+	top: 80px;
+	right: 0px;
+	left:auto;
+}
+				
+/* ESTILOS NUEVOS ************************* FOOTER ***********************/
+footer {
+	background-color: rgba(114,114,114,1.00);
+	padding: 10px;
+	color:rgba(255,255,255,1.00);
+
+}
+
+.logosena {
+	max-height:70px;
+	}
+
+
+/* ESTILOS NUEVOS ************************* EXTRAS ***********************/
+#f5 {
+	width: 75px;
+	height: 70px;
+	background-color: rgba(0,126,179,0.50);
+	margin: 0px;
+	border-radius: 35px 0px 0px 35px;
+	position:fixed;
+	bottom: 100px;
+	right: 0px;
+	font-size: large;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgba(255,255,255,0.9);
+}
+
+#f5:hover {
+	background-color: rgba(0,126,179,0.70);	
+	color: rgba(255,255,255,1.0);
+	}
+
+.timer {
+	width: 180px;
+	height: 50px;
+	background-color: rgba(78,78,78,0.85);
+	margin: 0px;
+	border-radius: 30px 0px 0px 30px;
+	position:fixed;
+	bottom: 30px;
+	right: 0px;
+	font-size:1.5em;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+	color: rgba(255,255,255,0.9);
+}
+
+/* FUENTE DE ICONOS CON EL LOGO DEL SENA */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-q0jcp3');
+	src:url('../fonts/icomoon.eot?#iefix-q0jcp3') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-q0jcp3') format('woff'),
+		url('../fonts/icomoon.ttf?-q0jcp3') format('truetype'),
+		url('../fonts/icomoon.svg?-q0jcp3#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logoSena:before {
+	content: "\e600";
+}
+
+footer .icon-logoSena{
+	font-size:8em;
+	color:rgba(255,255,255,1.00);
+	text-shadow: 0px 0px 8px  rgba(38,200,249,1.00);
+	margin: 0 auto;
+	text-align:right;
+	
+	}
+	
+.colorfondo {background-color: #E5E5E5;}
+
+
+/* ESTILOS DE LOS FORMULARIOS ****************************************************/
+
+
+.radio-off, .radio-on{
+	cursor:pointer;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	margin-left:-4px;
+	font-size:1.2em;
+	overflow: auto;
+	padding: 0.5em 1em 0.5em 1em;
+	}
+
+.radio-on{	
+	border: #D8D8D8 1px solid;
+	background-color: #C7C7C7;
+	color:#232323;
+	border-radius:5px;
+	background-image: linear-gradient(to bottom,  #B1B1B1 0px, #E0E0E0 100%);
+	cursor:default;
+/* 	box-shadow: inset 0px 0px 5px  #2D32FF; */
+}
+
+.radio-off {	
+	border: #D8D8D8 1px solid;
+	background-color:#F8F8F8;
+	color:#232323;
+	border-radius:5px;
+	background-image: linear-gradient(to bottom,#FFF 0px, #E0E0E0 100%);
+
+/* 	box-shadow: inset 0px 0px 5px  #2D32FF; */
+	}
+
+ .radio-hidden{
+	visibility:hidden;
+	margin-left:-13px !important;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	}
+ .invertirH {
+	 transform: scaleX(-1);
+	 }
+.bloque{
+	padding:15px;
+	border:solid #D3D3D3 1px;
+	border-radius:10px;
+	background-color:#F8F8F8;
+	}
+
+.bloque2{
+	margin-top:-1px;
+	padding:15px;
+	border:solid #D3D3D3 1px;
+/* 	border-radius:10px; */
+/* 	background-color:#F8F8F8; */
+	}
+	
+.loading {
+	height:2.5em;
+/* 	right: 0px; */
+position: absolute;
+	}	
+	
+.divpo{
+	color:#0074FF;
+	text-transform: capitalize;
+/* 	font-weight:bold; */
+	}
+.divpo:hover{
+	color:#5BA5FF;
+	cursor:pointer;	
+	}
+
+.bajoDiv {
+	position:absolute;
+	bottom:0px;
+	z-index:-1
+	}
+
+.opcSelect {
+	font-weight:bold;
+	font-size:1.1em;
+	background-color: #D5EAFC;
+	padding: 5px;
+	border-radius: 5px;
+	}
+
+.btnInforme {
+	color:#2B2B2B;
+	margin: 2em 1em;
+	
+	}
+
+.btnInforme:hover {
+	color:#008A02;
+	}
+	
+	
+		
+#loadingAjax {
+	background-color: rgba(0,0,0,0.81);
+	box-shadow:inset 0px 0px 30px #000000;
+	color:rgba(255,255,255,1.00);
+	font-size:1.5em;	
+	padding:0.5em;
+	border-radius:1.5em;
+	position:fixed;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom:auto;
+	left:0;
+	right:0;
+	top:0;
+	bottom:230px;
+	width:300px;
+	height:50px;
+ 	z-index: 1000; 
+	}
+
+#loadingAjax span:nth-child(1) {
+	
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+    -moz-animation-name: spin;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	
+    -ms-animation-name: spin;
+    -ms-animation-duration: 1000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(180deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(180deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(180deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(180deg);
+    }
+}
+
+.tdc {
+	font-size:1.3em;
+	text-align:center;
+	}
